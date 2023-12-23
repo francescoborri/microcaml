@@ -1,0 +1,13 @@
+let rec fib = n ->
+    if n < 2
+    then n
+    else fib (n - 1) + fib (n - 2)
+in
+
+let rec fib_range = start -> end ->
+    if start < end or start = end
+    then print (fib start), (fib_range (start + 1)) end
+    else ()
+in
+
+(fib_range 1) 10

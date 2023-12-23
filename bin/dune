@@ -1,0 +1,4 @@
+(executable
+ (public_name microcaml)
+ (name main)
+ (libraries microcaml core))

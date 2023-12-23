@@ -1,0 +1,9 @@
+(menhir
+ (modules parser))
+
+(ocamllex
+ (modules lexer))
+
+(library
+ (name microcaml)
+ (modules lexer parser interpreter))

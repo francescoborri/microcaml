@@ -1,0 +1,11 @@
+let n = 981238217801 in
+
+let is_prime = n ->
+    let rec aux = i ->
+        if i * i > n then true
+        else if n mod i = 0 then false
+        else aux (i + 1)
+    in aux 2
+in
+
+print "" ^ n ^ (if is_prime n then " is prime" else " is not prime")
