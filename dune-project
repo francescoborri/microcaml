@@ -16,6 +16,6 @@
 (package
  (name microcaml)
  (synopsis "Interpreter for MicrOCaml")
- (description "Interpreter for a educational functional language inspired by OCaml, named MicrOCaml")
+ (description "Interpreter for a toy functional language inspired by OCaml")
  (depends ocaml dune core menhir))
 
